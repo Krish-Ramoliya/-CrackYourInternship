@@ -1,12 +1,12 @@
-package Heap;
+package Java_Recursion;
 
 import java.util.Arrays;
 
-public class HeapSort {
+public class heapsort {
 
     public static void main(String args[])
     {
-        int[] nums= {10,3,2,4,1};
+        int nums[]= {10,3,2,4,1};
         Solution ob = new Solution();
         ob.sortColors(nums);
 
