@@ -6,7 +6,7 @@ public class HeapSort {
 
     public static void main(String args[])
     {
-        int nums[]= {10,3,2,4,1};
+        int[] nums= {10,3,2,4,1};
         Solution ob = new Solution();
         ob.sortColors(nums);
 
