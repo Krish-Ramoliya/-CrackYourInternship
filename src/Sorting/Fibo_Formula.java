@@ -1,4 +1,4 @@
-package heap;
+package Sorting;
 
 public class Fibo_Formula {
 
