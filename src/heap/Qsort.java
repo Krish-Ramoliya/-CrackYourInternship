@@ -8,7 +8,7 @@ public class Qsort {
     {
         int nums[]={8,36,7,2,1};
         quicksort(nums,0,nums.length-1);
-        System.out.println(Arrays.toString(nums));
+        System.out.println(Arrays.toString(nums)); // quick sort
     }
 
     private static void quicksort(int[] nums, int start, int end) {
