@@ -1,4 +1,4 @@
-package TwoPointersMethod;
+package Sorting;
 
 import java.util.Arrays;
 
@@ -24,16 +24,18 @@ class two {
 
         while(start<=end)
         {
-            if(nums[start]<nums[end])
+            if((nums[start]+nums[end])==target)
             {
-                return  new int[]{start+1,end+1};
-            }
-            else if(nums[start]<nums[end]){
-                return   new  int[]{end +1, start+1};
-            }
-            else{
-                return   new  int[]{start+1, end+1};
-            }
+                if(nums[start]<nums[end])
+                {
+                    return  new int[]{start+1,end+1};
+                }
+                else if(nums[start]<nums[end]){
+                    return   new  int[]{end +1, start+1};
+                }
+                else{
+                    return   new  int[]{start+1, end+1};
+                }
 
             }
             if((nums[start]+nums[end])>target)
