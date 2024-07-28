@@ -20,7 +20,7 @@ class two {
     public int[] twoSum(int[] nums, int target) {
 
         int start = 0;
-        int end = nums.length-1;
+        int end = nums.length-1;   // I think of binary search and two pointer approach together and apply it.
 
         while(start<=end)
         {
