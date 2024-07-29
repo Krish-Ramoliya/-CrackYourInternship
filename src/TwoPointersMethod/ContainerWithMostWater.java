@@ -1,6 +1,6 @@
 package TwoPointersMethod;
 import java.util.*;
-
+//  we can also solvw it using in built  function in java Math.max and Math.min
 public class ContainerWithMostWater {
 
     public static void main(String[] args){
@@ -12,6 +12,7 @@ public class ContainerWithMostWater {
 
     }
 }
+
 class Area {
     public int maxArea(int[] nums) {
 
