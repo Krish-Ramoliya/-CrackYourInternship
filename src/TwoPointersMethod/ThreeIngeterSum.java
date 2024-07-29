@@ -6,7 +6,7 @@ public class ThreeIngeterSum {
 
     public static void main(String []args)
     {
-        int[] nums = {-3,-3,4,-3,1,2};
+        int[] nums = {9,-3,4,-3,1,2};
         ThreesumSolutoin ob  = new ThreesumSolutoin();
         List<List<Integer>> res = new ArrayList<>();
         res = ob.threeSum(nums);
