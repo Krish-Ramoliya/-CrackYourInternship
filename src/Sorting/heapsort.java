@@ -1,4 +1,4 @@
-package Java_Recursion;
+package Sorting;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ public class heapsort {
 
     public static void main(String args[])
     {
-        int nums[]= {10,3,2,4,1};
+        int nums[]= {2,0,1,8,7,6};
         Solution ob = new Solution();
         ob.sortColors(nums);
 
