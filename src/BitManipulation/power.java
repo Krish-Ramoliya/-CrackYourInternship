@@ -14,11 +14,11 @@ public class power {
             {
                 ans = ans*base;
             }
-
             base *=base;
             power = power >> 1;
         }
 
         System.out.println(ans);
     }
+
 }

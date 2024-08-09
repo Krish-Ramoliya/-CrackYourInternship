@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class heapsort {
 
-    public static void main(String args[])
+    public static void main(String []args)
     {
-        int nums[]= {2,0,1,8,7,6};
+        int[] nums= {2,0,1,8,7,6};
         Solution ob = new Solution();
         ob.sortColors(nums);
 
