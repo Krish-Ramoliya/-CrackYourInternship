@@ -7,7 +7,7 @@ public class SubsetDuplicate {
 
     public static void main(String[] args) {
 
-        int arr[] = {1,2,2};
+        int arr[] = {4,4,4,1,4};
         List<List<Integer>> op = Dupliactesubset(arr);
 
         for(List<Integer> list : op)
